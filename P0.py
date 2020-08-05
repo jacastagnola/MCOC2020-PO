@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Aug  5 17:23:00 2020
 
-@author: Asus
-"""
 nombre= "Juan Andres"
 dia= 3
 
@@ -19,6 +14,11 @@ print("hola {nombre} es el {dia} de Agosto ".format(dia=dia, nombre=nombre))#For
 print ("Forma 4")
 print(f"hola {nombre} es el {dia} de Agosto" ) #Forma 4
 
+print(" Ejemplo 2 Forma 1")
+print("hola hola hola hola hola hola hola")
+
+print(" Ejemplo 2 Forma 2")
+print(" hola " *100)
 
 
 
