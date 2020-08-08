@@ -63,6 +63,8 @@ Internet
 
 # "Desempeño MATMUL"
 
+![graficos rendimiento](https://user-images.githubusercontent.com/69158084/89698502-a7aae680-d8ef-11ea-96f2-eac3dbbe0870.png)
+
 ¿Como difiere del gráfico del profesor/ayudante?
 
 ¿A qué se pueden deber las diferencias?
