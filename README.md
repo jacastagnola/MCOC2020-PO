@@ -79,5 +79,9 @@ El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tie
 
   • Numpy 1.18.1
   
-Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
+Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar.
+
+  • se usaron 8 procesadores logicos.
+  
+  
 
