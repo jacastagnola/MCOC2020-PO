@@ -67,9 +67,15 @@ Internet
 
 ¿Como difiere del gráfico del profesor/ayudante?
 
+• Comparando los graficos con el del profesor encuanto a los tiempos podemos observar que para las primeras matrices mas pequeñas el tiempo del profesor es mucho menor al mio siendo el del profesor cerca de los 0.1 ms y el mio siendo entre 0.1 s y 1 s . ademas se observa que el posee unos peaks del grafico de tiempo entre tamaño de matriz 50 y 100 y yo entre 20 y 50
+
 ¿A qué se pueden deber las diferencias?
 
+• Estas diferencias se deben a las capacidades de cada computador ya que el profesor posee 32 Gb de ram y yo solo posee 8 Gb lo que puede explicar la diferencias. Ademas el profesor al tener memorias ssd tiene una velocidad de escritura mas rapida lo que tambien explica las diferencias de rendimiento
+
 El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
+
+• El grafico de memoria es lineal porque cada unidad de una matriz ocupa 8 bytes y al aumentar el numero de unidades de una matriz este aumenta linealmente. En el caso del grafico del tiempo transcurrido este depende de mas factores como que procesos estan corriendo en paralelo al correr el programa y ademas cada vez que parte un proceso el computador lo hace de manera distinta. 
 
 ¿Qué versión de python está usando?
 
