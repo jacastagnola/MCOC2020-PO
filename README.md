@@ -62,3 +62,20 @@ Internet
   •	VTR Banda Ancha
 
 # "Desempeño MATMUL"
+
+¿Como difiere del gráfico del profesor/ayudante?
+
+¿A qué se pueden deber las diferencias?
+
+El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
+
+¿Qué versión de python está usando?
+
+  • Python 3.7.6
+  
+¿Qué versión de numpy está usando?
+
+  • Numpy 1.18.1
+  
+Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
+
