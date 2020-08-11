@@ -114,6 +114,10 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 • se usaron 8 procesadores logicos.
 
 
+![procesadores mimatmul](https://user-images.githubusercontent.com/69158084/89849066-b2ff4b80-db55-11ea-985d-1017e17bb248.PNG)
+
+
+
 
 
 
