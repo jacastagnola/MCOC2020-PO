@@ -96,5 +96,29 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
   # "Desempeño MIMATMUL"
   
   
+  ![grafico rendimineto mimatmul](https://user-images.githubusercontent.com/69158084/89846329-e8546b00-db4e-11ea-9571-3805f8909ac8.PNG)
+  
+
+•Comparando los graficos la gran diferencia que se puede observar es el tiempo en el cual se demora en procesar la informacion que es mucha mas usando mimatmul que la funcion que ya viene en python. Debido a esto hice 10 corridas con matrices de tamaña maximo de 500x500 debido altiempo en que se demoraba en correr el programa. Para cada corrida se demoro un aproximado entre 3 a 5 minutos y esto por 10 lo hace bastante tiempo corriendo el programa. En cuanto al uso de memoria este fue muy similar al anterior.
+
+• Comparando con los graficos del ayudante y profesor se puede observar es principalmente problema de hardware ya que el profesor posee una mayor memoria RAM y ademas discos SSD los cuales tienen una velocidad de lectura mucho mas rapida que un HDD el que uno posee.
+
+• Podemos decir que el grafico de memoria no es lineal  ya que entran diferentes procesos a la vez los cuales despues de ciertas operaciones se ven saturados por la capacidad de procesamiento. Esto genera un aumento ni lineal en el grafico Log - Log entre el tiempo de procesamiento y el tamaño de las matrices. En cambio en el grafico memoria tamaño de matrices el Log-Log es lineal.
+
+• Otro factor que afecta es como trabaja python ya que este no define las variables como int y tiene que ir chequeandpo cada vez que lee una linea debe cheaquear que tipo de variable es. Esto se debe a que python no compila antes de correr el programa como JAVA o C.
+
+• Python 3.7.6
+
+• Numpy 1.18.1
+
+• se usaron 8 procesadores logicos.
+
+
+
+
+
+
+
+  
   
 
