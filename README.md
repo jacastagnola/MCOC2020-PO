@@ -147,7 +147,7 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
 ![datos_timing_inv_caso_3_double](https://user-images.githubusercontent.com/69158084/90087034-ce02c480-dce9-11ea-859b-340ea449ba8e.png)
 
-![datos_timing_inv_caso_3_half](https://user-images.githubusercontent.com/69158084/90087062-dce97700-dce9-11ea-9142-fb45fb3c8601.png
+![datos_timing_inv_caso_3_half](https://user-images.githubusercontent.com/69158084/90087062-dce97700-dce9-11ea-9142-fb45fb3c8601.png)
   
 ![datos_timing_inv_caso_3_longdouble](https://user-images.githubusercontent.com/69158084/90087089-ed015680-dce9-11ea-8887-52a273211ddb.png)
 )
