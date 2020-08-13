@@ -145,12 +145,11 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
 • Caso 3
 
- ![datos_timing_inv_caso_3_double](https://user-images.githubusercontent.com/69158084/90086855-6a789700-dce9-11ea-9146-efd608291c1f.png 
- 
- ![datos_timing_inv_caso_3_half](https://user-images.githubusercontent.com/69158084/90086915-8845fc00-dce9-11ea-9bc2-53b14ecbbb36.png)
-)
-![datos_timing_inv_caso_3_longdouble](https://user-images.githubusercontent.com/69158084/90086939-9562eb00-dce9-11ea-95ef-520c27bdca30.png)
+![datos_timing_inv_caso_3_double](https://user-images.githubusercontent.com/69158084/90087034-ce02c480-dce9-11ea-859b-340ea449ba8e.png)
 
-![datos_timing_inv_caso_3_single](https://user-images.githubusercontent.com/69158084/90086958-9eec5300-dce9-11ea-815c-a8dee5c0f6f1.png)
+![datos_timing_inv_caso_3_half](https://user-images.githubusercontent.com/69158084/90087062-dce97700-dce9-11ea-9142-fb45fb3c8601.png
   
+![datos_timing_inv_caso_3_longdouble](https://user-images.githubusercontent.com/69158084/90087089-ed015680-dce9-11ea-8887-52a273211ddb.png)
+)
 
+![datos_timing_inv_caso_3_single](https://user-images.githubusercontent.com/69158084/90087107-fa1e4580-dce9-11ea-9868-badd0ada8754.png)
