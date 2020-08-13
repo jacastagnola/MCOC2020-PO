@@ -126,8 +126,15 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 ![datos_timing_inv_caso_1_single](https://user-images.githubusercontent.com/69158084/90082012-b8d36900-dcdc-11ea-847e-4586770b0707.png)
 
 
+• Caso 2 usando scipy.linalg.inv con overwrite_a=False no hubo problemas con ningun dato y se lograron graficar los rendimientos de los 4 casos
 
+![datos_timing_inv_caso_2_double](https://user-images.githubusercontent.com/69158084/90082284-55960680-dcdd-11ea-927f-335a445c5050.png)
 
+![datos_timing_inv_caso_2_half](https://user-images.githubusercontent.com/69158084/90082302-66df1300-dcdd-11ea-90c0-7f98c25504f5.png)
+
+![datos_timing_inv_caso_2_longdouble](https://user-images.githubusercontent.com/69158084/90082317-778f8900-dcdd-11ea-9cc9-d58b9d0741cf.png)
+
+![datos_timing_inv_caso_2_single](https://user-images.githubusercontent.com/69158084/90082323-7c543d00-dcdd-11ea-987c-d54945619638.png)
 
 
   
