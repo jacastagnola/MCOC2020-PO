@@ -126,7 +126,7 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
  * np.double: float 64 = 8 bytes
  * np.longdouble: float 64 = 8 bytes
 
-• Caso 1 usando numpy.linalg.inv solo se realizaron los graficos np.single y np.double ya que numpy linalg no soportaba np.half(float16) y np.longdouble(float64). ademas se puede observa que el uso de datos de tipo np.double ocupan mas memoria que los de tipo np.single
+• Caso 1 usando numpy.linalg.inv solo se realizaron los graficos np.single y np.double ya que numpy linalg no soportaba np.half(float16) y np.longdouble(float64). ademas se puede observa que el uso de datos de tipo np.double ocupan mas memoria que los de tipo np.single. Si observamos el tiempo el que posee una mayor variacion en este es el np.single.
 
 ![datos_timing_inv_caso_1_double](https://user-images.githubusercontent.com/69158084/90082002-b2dd8800-dcdc-11ea-988d-52cb6de1ea9a.png)
 
