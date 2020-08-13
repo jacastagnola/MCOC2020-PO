@@ -143,7 +143,7 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
 ![datos_timing_inv_caso_2_single](https://user-images.githubusercontent.com/69158084/90082323-7c543d00-dcdd-11ea-987c-d54945619638.png)
 
-• Caso 3 usando scipy.linalg.inv con overwrite_a=True 
+• Caso 3 usando scipy.linalg.inv con overwrite_a=True Al igual que en el caso 2 se observa un comportamiento similar en la memoria siendo el que mas usa el longdouble y dcreciendo despues double single y half. Para el tiempo podemos observa que el mas estable fue el half que posee peaks pero no tan notorios como los del single, double y longdouble. Podemos observar que este caso usando overwrite true posee muchas mas variaciones en el tiempo que el overwrite False lo que nos dice que el programa va moviendo datos de un lado a otro tratando de optimizar su ejecuccion.
 
 ![datos_timing_inv_caso_3_double](https://user-images.githubusercontent.com/69158084/90087034-ce02c480-dce9-11ea-859b-340ea449ba8e.png)
 
@@ -153,3 +153,6 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 )
 
 ![datos_timing_inv_caso_3_single](https://user-images.githubusercontent.com/69158084/90087107-fa1e4580-dce9-11ea-9868-badd0ada8754.png)
+
+
+
