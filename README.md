@@ -143,7 +143,7 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
 ![datos_timing_inv_caso_2_single](https://user-images.githubusercontent.com/69158084/90082323-7c543d00-dcdd-11ea-987c-d54945619638.png)
 
-• Caso 3
+• Caso 3 usando scipy.linalg.inv con overwrite_a=True 
 
 ![datos_timing_inv_caso_3_double](https://user-images.githubusercontent.com/69158084/90087034-ce02c480-dce9-11ea-859b-340ea449ba8e.png)
 
