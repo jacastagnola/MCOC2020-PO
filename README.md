@@ -133,7 +133,7 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 ![datos_timing_inv_caso_1_single](https://user-images.githubusercontent.com/69158084/90082012-b8d36900-dcdc-11ea-847e-4586770b0707.png)
 
 
-• Caso 2 usando scipy.linalg.inv con overwrite_a=False no hubo problemas con ningun dato y se lograron graficar los rendimientos de los 4 casos
+• Caso 2 usando scipy.linalg.inv con overwrite_a=False no hubo problemas con ningun dato y se lograron graficar los rendimientos de los 4 casos. al observar los graficos de tiempos de cada tipo de dato podemos observar que el que es mas estable es el double el cual no presenta peaks notorios despues los otros presentan peaks notorios pero el mas inesteble es el half. El dato tipo longdouble es el que mas ocupa meeria seguido por el double single y half.
 
 ![datos_timing_inv_caso_2_double](https://user-images.githubusercontent.com/69158084/90082284-55960680-dcdd-11ea-927f-335a445c5050.png)
 
@@ -143,7 +143,7 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
 ![datos_timing_inv_caso_2_single](https://user-images.githubusercontent.com/69158084/90082323-7c543d00-dcdd-11ea-987c-d54945619638.png)
 
-•
+
   
   
 
