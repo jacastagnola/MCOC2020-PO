@@ -119,6 +119,12 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
 # Desempeño de INV
 
+• Caso 1 usando numpy.linalg.inv solo se realizaron los graficos np.single y np.double yaque numpy linalg no soportaba np.half(float16) y np.longdouble(float64)
+
+![datos_timing_inv_caso_1_double](https://user-images.githubusercontent.com/69158084/90082002-b2dd8800-dcdc-11ea-988d-52cb6de1ea9a.png)
+
+![datos_timing_inv_caso_1_single](https://user-images.githubusercontent.com/69158084/90082012-b8d36900-dcdc-11ea-847e-4586770b0707.png)
+
 
 
 
