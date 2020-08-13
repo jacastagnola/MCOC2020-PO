@@ -156,3 +156,12 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
 •Observando cada grafico por tipo de dato podemos observar que en cuanto a memoria para cada caso los datos iguales ocupan la misma cantidad. Pero si analizamos el tiempo para cada variable. En el caso de half podemos observar una variabilidad mayor en el caso 2 que en el caso 3. Para el simple observamos el caso 1 muy estable pero el caso 2 es muy inestable en matrices pequeñas y mas estable en matrices grande, en el caso 3 se observa que posee la mayor variacion de los 3. El double tanto para el caso 1 como el 2 se observa sin peaks muy grandes y con una baja variabilidad pero el caso 3 posee mas variabilidad que los otros dos pero comparando con los otros datos es el menos variable. Por ultimo el longdouble es muy estable en ambos casos 2 y 3 pero poseen un gran peak en la matriz 20x20 y 50x50 respectivamente.
 
+• Paralelismo y el Cache
+
+  * El paralelismo de los nucleos otorga potencia a procesos que ya estan optimizados para esa forma de procesar datos, pero al recibir procesos los cuales no estan       acostumbrados y no estan optimizados pierden su eficiencia. Es aqui cuando la memeria cahe cobra importanciaya que procesa la informacion por paquetes de datos los cuale socupan una gran cantidad de memoria. Entonces podemos decir de no poder correr procesos en nucleos paralelos el cache se hace cargo de la falta de potencia para descongestionar el sistema. Analizando los graficos podemos decir que los peaks observados se debe a que el sistema trata de optimizar el programa mandando lo al cahe para procesarlo a una mayor velocidad.
+  
+• Inversion de Numpy y Scipy
+
+  * Yo creo que tanto Numpy como Scipy verifican si es posible realizar el inverso mediante una factorizacion o descomposicion LU(lower and upper) y sino les es posible lo hacen por el metodo de Gauss Jordan. L diferencia entre ambos es como verifican los datos ya que la mayoria de Numpy esta desarrollado en C.
+
+
