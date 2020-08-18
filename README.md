@@ -184,6 +184,20 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 • Comparando los graficos con los del profesor podemos observar que para su caso los solvers son mas eficientes que la multiplicacion directa esto se debe a las mejores capacidades de procesadores y memoria Ram que posee que logran un mejor procesamiento de los datos sin saturarse. Podriamos decir que mi computador al saturar los procesadores hacen mas lento el proceso de los solvers que el de la multiplicacion por Numpy.
 
 
+•Foto grafico rendimineto
+
+![Foto grafico Rendimiento de solvers](https://user-images.githubusercontent.com/69158084/90463383-d5a2de80-e0d8-11ea-9242-ed54e40198aa.PNG)
+
+•Foto CPU
+
+![cpu6](https://user-images.githubusercontent.com/69158084/90463444-f703ca80-e0d8-11ea-8dd4-eb8acf8fa7a2.PNG)
+
+•Foto Memoria Ram
+
+![memoria 6](https://user-images.githubusercontent.com/69158084/90463514-1b5fa700-e0d9-11ea-81a4-b524e0a919bc.PNG)
+
+
+
 
 
  
