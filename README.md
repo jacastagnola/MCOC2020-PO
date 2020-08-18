@@ -164,4 +164,10 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
   * Yo creo que tanto Numpy como Scipy verifican si es posible realizar el inverso mediante una factorizacion o descomposicion LU(lower and upper) y sino les es posible lo hacen por el metodo de Gauss Jordan. L diferencia entre ambos es como verifican los datos ya que la mayoria de Numpy esta desarrollado en C.
 
+# Desempeño Ax=b
+
+ En esta entrega se evaluo el desempeño del computador para resolver un sistema lineal de la forma Ax=b usando distintos solvers y metodos. Multiplicavion directa y herramientas de las librerias Numpy y Scipy con diferents formatos.
+ 
+•Cabe destacar que el codigo arrojo una advertyencia al estar iterando con Scipy para la iteracion de matriz 1000x1000 el cual advertia que lo resultados podrian no ser los mas precisos. Esto se debe a la acumulacion de errores por la cantidad de redondeos que realiza el codigo.
+
 
