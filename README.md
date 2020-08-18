@@ -168,6 +168,24 @@ Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre 
 
  En esta entrega se evaluo el desempeño del computador para resolver un sistema lineal de la forma Ax=b usando distintos solvers y metodos. Multiplicavion directa y herramientas de las librerias Numpy y Scipy con diferents formatos.
  
-•Cabe destacar que el codigo arrojo una advertyencia al estar iterando con Scipy para la iteracion de matriz 1000x1000 el cual advertia que lo resultados podrian no ser los mas precisos. Esto se debe a la acumulacion de errores por la cantidad de redondeos que realiza el codigo.
+•Cabe destacar que el codigo arrojo una advertencia al estar iterando con Scipy para la iteracion de matriz 1000x1000 el cual advertia que lo resultados podrian no ser los mas precisos. Esto se debe a la acumulacion de errores por la cantidad de redondeos que realiza el codigo.
+
+
+• Advertencia mostrada
+C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:56: LinAlgWarning: Ill-conditioned matrix (rcond=1.9996e-08): result may not be accurate.
+  A_invB = sp.linalg.solve(A, B)
+C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinAlgWarning: Ill-conditioned matrix (rcond=1.9996e-08): result may not be accurate.
+  A_invB = sp.linalg.solve(A, B, assume_a = "sym")
+  
+•Mirando el grafico de rendimineto las matrices desde 2 hasta 5 poseen un tiempo de procesamiento constante en el grafico logaritmico que nos lleva a decir que el tamaño no es un factor que afecte el procesamiento de datos en ese tramo. En un segundo tramo desde matrices de 5x5 hasta matrices de 10x10 se ve un aumento de todos los solvers de manera sostenida para despues bajar el tiempo desde 10x10 hasta 20x20. En esos tramos se nota un comportamiento parecido de todos los solvers. Tambien se puede observar que desde las matrices 100x100 en adelante se nota la diferencia del uso de memoria y optimizacion entre las funciones de Scipy y la multiplicacion directa de Numpy. Siendo los solvers de Scipy los cuales se demoran mas a medida que aumenta el tamaño de las matrices. Podemos decir que en cuanto a rendimiento sigue siendo mas eficiente para matrices mas grandes la multiplicacion de Numpy que los Solvers de Scipy. A medida que aumenta el tamaño de la matriz se ve que no hay saltos en cuanto a rendimiento y todos siguen una tendencia constante en el crecimiento en el grafico.
+
+• Solo grafique hasta 5000 ya que despues de eso arrojaba la advertencia de valores lo que se puede deber a que se estaba usando casi toda la memoria Ram y los peaks en los procesadores lo que nos dice que se empezaron a saturar. Esto se observa en las imagenes de los procesadores y de memeoria Ram.
+
+• Comparando los graficos con los del profesor podemos observar que para su caso los solvers son mas eficientes que la multiplicacion directa esto se debe a las mejores capacidades de procesadores y memoria Ram que posee que logran un mejor procesamiento de los datos sin saturarse. Podriamos decir que mi computador al saturar los procesadores hacen mas lento el proceso de los solvers que el de la multiplicacion por Numpy.
+
+
+
+
+ 
 
 
