@@ -209,7 +209,11 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
  * Como se observa en los graficos podemos ver que para el caso de la matriz llena se observa tanto para el ensamblado como para la solucion se observan que tiene una gran cantidad de peaks en comparacion con las matrices dispersas esto sedebe a la eficiencia que puede otorgar usar matrices dispersas ya que el computador debe realizar una menor cantidad de operaciones. En cuanto a tiempo el ensamblado de ambas tienen el mismo tiempo en donde se nota la eficiencia del uso de las matrices dispersas es en el tiempo de solucion la dispersa esta entre 1ms y 10ms y la llena esta entre 10s y 1min.
  
- *
+ * Para la matriz llena el ensamblado se observa una complejidad asintotica de N2 y para la solucion un N3 para la matriz dispersa se observa un N2 para ensamblado y un N1 para la solucion.
+ 
+ * Podemos decir que si N tiende a infinito podemos observar una relacion directamente proporcinal en el grafico en tre el tamaño de matriz y el tiempo
+ 
+ * Para el caso de las dispersas las corridas son muy parecidas entre si pero para el caso de la matriz llena se se observa muchas diferencia entre corridas distintas
 
 
 •Complejidad algorítmica de SOLVE
@@ -218,7 +222,14 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 ![DESEMPEÑO solve_disperso](https://user-images.githubusercontent.com/69158084/90948066-eb7e0f80-e408-11ea-8348-0e01ea698a98.png)
 
+* Como se observa en los graficos podemos ver que para el caso de la matriz llena se observa tanto para el ensamblado como para la solucion se observan que tiene una gran cantidad de peaks en comparacion con las matrices dispersas esto sedebe a la eficiencia que puede otorgar usar matrices dispersas ya que el computador debe realizar una menor cantidad de operaciones. En cuanto a tiempo el ensamblado de ambas tienen el mismo tiempo en donde se nota la eficiencia del uso de las matrices dispersas es en el tiempo de solucion la dispersa esta entre 1ms y 10ms y la llena esta entre 1s y 10s.
 
+ *  Para la matriz llena el ensamblado se observa una complejidad asintotica de N2 y para la solucion un N3 para la matriz dispersa se observa un N2 para ensamblado y un N1 para la solucion.
+ 
+  * Podemos decir que si N tiende a infinito podemos observar una relacion directamente proporcinal en el grafico en tre el tamaño de matriz y el tiempo
+  
+  * Para el caso de las dispersas las corridas son muy parecidas entre si pero para el caso de la matriz llena se se observa muchas diferencia entre corridas distintas 
+  
 •Complejidad algorítmica de INV
 
 ![DESEMPEÑO inversa_lleno](https://user-images.githubusercontent.com/69158084/90948069-ef119680-e408-11ea-96c3-61670f2f69a7.png)
