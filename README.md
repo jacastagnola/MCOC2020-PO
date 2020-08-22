@@ -203,9 +203,27 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 •Complejidad algoritmica de MATMUL
 
+![DESEMPEÑO MATMUL_lleno](https://user-images.githubusercontent.com/69158084/90946774-32b2d300-e3fe-11ea-91e5-ea81290f0fb4.png)
+
+![DESEMPEÑO MATMUL_dispersa](https://user-images.githubusercontent.com/69158084/90946787-478f6680-e3fe-11ea-8231-cd0af957721a.png)
+
+
+
 •Complejidad algorítmica de SOLVE
 
+![DESEMPEÑO solve_lleno](https://user-images.githubusercontent.com/69158084/90946809-9a691e00-e3fe-11ea-83c8-ec31b99f7017.png)
+
+![DESEMPEÑO solve_dispersa](https://user-images.githubusercontent.com/69158084/90946813-ab199400-e3fe-11ea-9027-56adf33c212d.png)
+
+
+
 •Complejidad algorítmica de INV
+
+![DESEMPEÑO inversa_lleno](https://user-images.githubusercontent.com/69158084/90946821-bcfb3700-e3fe-11ea-831c-40630d789cea.png)
+
+![DESEMPEÑO inversa_dispersa](https://user-images.githubusercontent.com/69158084/90946827-cb495300-e3fe-11ea-920c-722a76b7edb0.png)
+
+
 
 •Codigo Matriz Laplaciana
 
