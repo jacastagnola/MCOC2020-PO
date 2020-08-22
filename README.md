@@ -236,8 +236,7 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 ![DESEMPEÑO inversa_disperso](https://user-images.githubusercontent.com/69158084/90948071-f20c8700-e408-11ea-8034-4367eb1dda13.png)
 
-
-
+ * para el caso de la inversa observamos un comportamiento parecido a las demas solo con la diferencia de que el tiempo de solucion es mayor que para las otras operacion esto se puede explicar debido al tipo de datos que se pide usar csc_matrix. 
 
 
 •Codigo Matriz Laplaciana
