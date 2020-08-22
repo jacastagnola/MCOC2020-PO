@@ -208,24 +208,32 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 •Codigo Matriz Laplaciana
 
 " from numpy import zeros,float32
+
 from scipy.sparse import lil_matrix, csr_matrix, csc_matrix
+
 from time import perf_counter
+
 from scipy.sparse.linalg import spsolve
-import scipy as sp 
+
+import scipy as sp
+
 import numpy as np
 
 from time import perf_counter
-import matplotlib.pyplot as plt
+
 from scipy.sparse import lil_matrix, eye
 
 
 
 def matriz_laplaciana_llena(N, d=float32):
+
     L = -(np.eye(N, k=-1, dtype=d))+2*(np.eye(N, dtype=d))-(np.eye(N, k=+1, dtype=d))
+    
     return L
 
 
-"def matriz_laplaciana_dispersa_csr(N,dtype=float32):
+def matriz_laplaciana_dispersa_csr(N,dtype=float32):
+
     A=lil_matrix((N,N),dtype=dtype)"
     
     for i in range (N):
@@ -238,7 +246,8 @@ def matriz_laplaciana_llena(N, d=float32):
                 A[i,j]=-1
     return  csr_matrix(A)
     
-"def matriz_laplaciana_dispersa_csc(N,dtype=float32):
+def matriz_laplaciana_dispersa_csc(N,dtype=float32):
+
     A=lil_matrix((N,N),dtype=dtype)"
     
     for i in range (N):
