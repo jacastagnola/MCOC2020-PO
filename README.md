@@ -197,7 +197,7 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 ![memoria 6](https://user-images.githubusercontent.com/69158084/90463514-1b5fa700-e0d9-11ea-81a4-b524e0a919bc.PNG)
 
 
-
+# Matrices dispersas y complejidad computacional
 
 
  
