@@ -207,6 +207,9 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 ![DESEMPEÑO MATMUL_dispersa](https://user-images.githubusercontent.com/69158084/90946787-478f6680-e3fe-11ea-8231-cd0af957721a.png)
 
+ * Como se observa en los graficos podemos ver que para el caso de la matriz llena se observa tanto para el ensamblado como para la solucion se observan que tiene una gran cantidad de peaks en comparacion con las matrices dispersas esto sedebe a la eficiencia que puede otorgar usar matrices dispersas ya que el computador debe realizar una menor cantidad de operaciones. En cuanto a tiempo el ensamblado de ambas tienen el mismo tiempo en donde se nota la eficiencia del uso de las matrices dispersas es en el tiempo de solucion la dispersa esta entre 1ms y 10ms y la llena esta entre 10s y 1min.
+ 
+ *
 
 
 •Complejidad algorítmica de SOLVE
