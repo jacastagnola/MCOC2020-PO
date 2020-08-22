@@ -199,6 +199,8 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 # Matrices dispersas y complejidad computacional
 
+ * Para la realizacion de la tarea se hicieron 2 codigos uno para generar hacer los calculos con matrices dispersas y otro para hacer con matrices llenas. El de matrices llenas se logro iterar hasta una matriz de 16384x16384 y para la dispersa por problemas de que mi ram colapsaba y mi computador se quedaba pegado se realizaron hasta matrices de 8192x8192. Esta diferencia afecta los resultados pero de igual manera se logra ver la diferencia entre ambas tecnicas usando los dos tipos de matrices.
+
 •Complejidad algoritmica de MATMUL
 
 •Complejidad algorítmica de SOLVE
