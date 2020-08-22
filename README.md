@@ -213,8 +213,7 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 ![DESEMPEÑO solve_lleno](https://user-images.githubusercontent.com/69158084/90946809-9a691e00-e3fe-11ea-83c8-ec31b99f7017.png)
 
-![DESEMPEÑO solve_dispersa](https://user-images.githubusercontent.com/69158084/90946813-ab199400-e3fe-11ea-9027-56adf33c212d.png)
-
+![DESEMPEÑO solve_dispersa](https://user-images.githubusercontent.com/69158084/90946859-1d8a7400-e3ff-11ea-84eb-0d44d864a9a2.png)
 
 
 •Complejidad algorítmica de INV
