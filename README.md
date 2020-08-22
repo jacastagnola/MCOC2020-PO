@@ -207,7 +207,7 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 •Codigo Matriz Laplaciana
 
- *Como se observa se crearon tres funciones de matriz laplaciana. La primera es matriz_laplacina_llena para usar con datos de matrices llenas y dos funciones para usar en matrices dispersas. Una en deja retorna archivos en formato csc y la otra en csr. Esto se debe a que al correr mi codigo me salia un warning de que al invertir matrices es mejor dejarlas en formato csc es por esto que se realizo la funcion matriz_laplaciana_dispersa_csc.
+ * Como se observa se crearon tres funciones de matriz laplaciana. La primera es matriz_laplacina_llena para usar con datos de matrices llenas y dos funciones para usar en matrices dispersas. Una en deja retorna archivos en formato csc y la otra en csr. Esto se debe a que al correr mi codigo me salia un warning de que al invertir matrices es mejor dejarlas en formato csc es por esto que se realizo la funcion matriz_laplaciana_dispersa_csc.
  
  * En cuanto al rendimineto de las funciones podemos ver que las dos dispersas van a ser menos eficientes que las de la matriz llena ya que las dispersas hacen la matriz con dos for indentados que son codigos de alto nivel encomparacion a la matriz llena que se realiza con un codigo mas eficiente de bajo nivel. Esto puede afectar en cuanto a comparacion de datos.
  
