@@ -203,9 +203,9 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 •Complejidad algoritmica de MATMUL
 
-![DESEMPEÑO MATMUL_lleno](https://user-images.githubusercontent.com/69158084/90946774-32b2d300-e3fe-11ea-91e5-ea81290f0fb4.png)
+![DESEMPEÑO MATMUL_lleno](https://user-images.githubusercontent.com/69158084/90948055-db663000-e408-11ea-8711-b6c63ad52197.png)
 
-![DESEMPEÑO MATMUL_dispersa](https://user-images.githubusercontent.com/69158084/90946787-478f6680-e3fe-11ea-8231-cd0af957721a.png)
+![DESEMPEÑO MATMUL_diperso](https://user-images.githubusercontent.com/69158084/90948059-e15c1100-e408-11ea-9aa8-592a01234bf8.png)
 
  * Como se observa en los graficos podemos ver que para el caso de la matriz llena se observa tanto para el ensamblado como para la solucion se observan que tiene una gran cantidad de peaks en comparacion con las matrices dispersas esto sedebe a la eficiencia que puede otorgar usar matrices dispersas ya que el computador debe realizar una menor cantidad de operaciones. En cuanto a tiempo el ensamblado de ambas tienen el mismo tiempo en donde se nota la eficiencia del uso de las matrices dispersas es en el tiempo de solucion la dispersa esta entre 1ms y 10ms y la llena esta entre 10s y 1min.
  
@@ -214,16 +214,18 @@ C:\Users\Asus\Desktop\MCOC\P0\entrega 6\codigo rendimiento entrega 6.py:65: LinA
 
 •Complejidad algorítmica de SOLVE
 
-![DESEMPEÑO solve_lleno](https://user-images.githubusercontent.com/69158084/90946809-9a691e00-e3fe-11ea-83c8-ec31b99f7017.png)
+![DESEMPEÑO solve_lleno](https://user-images.githubusercontent.com/69158084/90948063-e7ea8880-e408-11ea-9dea-843b0d8bbc09.png)
 
-![DESEMPEÑO solve_dispersa](https://user-images.githubusercontent.com/69158084/90946859-1d8a7400-e3ff-11ea-84eb-0d44d864a9a2.png)
+![DESEMPEÑO solve_disperso](https://user-images.githubusercontent.com/69158084/90948066-eb7e0f80-e408-11ea-8348-0e01ea698a98.png)
 
 
 •Complejidad algorítmica de INV
 
-![DESEMPEÑO inversa_lleno](https://user-images.githubusercontent.com/69158084/90946821-bcfb3700-e3fe-11ea-831c-40630d789cea.png)
+![DESEMPEÑO inversa_lleno](https://user-images.githubusercontent.com/69158084/90948069-ef119680-e408-11ea-96c3-61670f2f69a7.png)
 
-![DESEMPEÑO inversa_dispersa](https://user-images.githubusercontent.com/69158084/90946827-cb495300-e3fe-11ea-920c-722a76b7edb0.png)
+![DESEMPEÑO inversa_disperso](https://user-images.githubusercontent.com/69158084/90948071-f20c8700-e408-11ea-8034-4367eb1dda13.png)
+
+
 
 
 
